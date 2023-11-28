@@ -3,13 +3,14 @@
     height: 50px;
 }
 
+.len-head {
+    background-color: aquamarine;
+
+
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.len-body-main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-}

@@ -1,0 +1,28 @@
+.len-main {
+    display: flex;
+}
+
+.len-leaf-sidebar {
+    max-width: 250px;
+    background-color: aqua;
+    width: 250px;
+    height: 1000px;
+}
+
+.len-body-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+}
+
+.len-content-main {
+    background-color: antiquewhite;
+    width: 850px;
+}
+
+.len-right-sidebar {
+    max-width: 250px;
+    width: 250px;
+    height: 1000px;
+    background-color: bisque;
+}
