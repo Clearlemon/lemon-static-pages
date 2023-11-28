@@ -1,8 +1,8 @@
-.len-main {
+.len-content-min {
     display: flex;
 }
 
-.len-leaf-sidebar {
+.len-leaft-sidebar {
     max-width: 250px;
     background-color: aqua;
     width: 250px;
@@ -15,7 +15,7 @@
     width: 1350px;
 }
 
-.len-content-main {
+.len-showcase-main {
     background-color: antiquewhite;
     width: 850px;
 }
