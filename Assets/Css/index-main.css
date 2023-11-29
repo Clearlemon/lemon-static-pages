@@ -26,3 +26,27 @@
     height: 1000px;
     background-color: bisque;
 }
+
+.information-background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.user-background-image {
+    height: 100px;
+    width: 250px;
+}
+
+.user-avatar {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px #e1e1e1
+}
+
+.information-avatar {
+    width: 60px;
+    height: 60px;
+
+}
