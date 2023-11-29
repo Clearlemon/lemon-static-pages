@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+li {
+    list-style-type: none;
+}
+
 .len-header-main {
     display: flex;
     height: 50px;
