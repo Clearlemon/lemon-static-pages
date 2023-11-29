@@ -50,3 +50,18 @@
     height: 60px;
 
 }
+
+.user-name-avatar {
+    margin: 5px 20px;
+    display: flex;
+}
+
+.user-name-word {
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.user-word-title {
+    font-size: 12px;
+}
