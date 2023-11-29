@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .len-header-main {
     display: flex;
     height: 50px;
@@ -7,8 +12,7 @@
     background-color: aquamarine;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.len-logo-fig {
+    height: 100%;
+    object-fit: cover;
 }
-
