@@ -4,9 +4,10 @@
 
 .len-leaft-sidebar {
     max-width: 250px;
-    background-color: aqua;
+    background-color: #f9f9f9;
     width: 250px;
     height: 1000px;
+    box-shadow: 0 0 10px rgba(180, 180, 180, .8);
 }
 
 .len-body-main {
@@ -77,4 +78,10 @@
 
 .len-nav-li-first {
     margin: 10px 20px;
+    font-size: 14px;
+    color: #919191;
+}
+
+li>.iconfont {
+    padding: 5px;
 }
