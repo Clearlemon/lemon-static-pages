@@ -8,6 +8,7 @@
     width: 250px;
     height: 1000px;
     box-shadow: 0 0 10px rgba(180, 180, 180, .8);
+    position: relative;
 }
 
 .len-body-main {
@@ -84,4 +85,24 @@
 
 li>.iconfont {
     padding: 5px;
+}
+
+.links-svg-cblock>.iconfont {
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.len-sidebar-links {
+    height: 30px;
+    position: absolute;
+    width: 200px;
+    bottom: 15px;
+    border-radius: 10px;
+    right: 20px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
 }

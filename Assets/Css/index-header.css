@@ -7,6 +7,10 @@ li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none
+}
+
 .len-header-main {
     display: flex;
     height: 50px;
