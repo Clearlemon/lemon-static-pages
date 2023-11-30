@@ -93,6 +93,10 @@ li>.iconfont {
     color: black;
 }
 
+.len-nav-link-block {
+    color: #919191;
+}
+
 .len-sidebar-links {
     height: 30px;
     position: absolute;
