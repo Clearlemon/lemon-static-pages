@@ -1,3 +1,4 @@
+//无刷新加载页面JS
 document.addEventListener('DOMContentLoaded', function () {
     // 获取<a>标签
     var diaryLink = document.querySelector('.len-nav-link-block[href="Page/diary.html"]');
@@ -43,6 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+
+//等待优化的无刷新加载页面JS
 // document.addEventListener('DOMContentLoaded', function () {
 //     // 获取<a>标签
 //     var diaryLink = document.querySelector('.len-nav-link-block[href="Page/diary.html"]');
