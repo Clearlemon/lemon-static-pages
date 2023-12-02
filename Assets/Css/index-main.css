@@ -126,11 +126,10 @@ li>.iconfont {
 }
 
 .calendar {
-    width: max-content;
+    width: 100%;
     background-color: white;
-    border-radius: 25px;
     overflow: hidden;
-    padding: 30px 50px 0px 50px;
+    /* padding: 30px 50px 0px 50px; */
 }
 
 .calendar {
@@ -148,7 +147,7 @@ li>.iconfont {
 }
 
 .calendar-body {
-    pad: 10px;
+    padding: 10px;
 }
 
 .calendar-week-days {
@@ -157,6 +156,7 @@ li>.iconfont {
     font-weight: 600;
     cursor: pointer;
     color: rgb(104, 104, 104);
+    font-size: 12px;
 }
 
 .calendar-week-days div:hover {
@@ -180,8 +180,9 @@ li>.iconfont {
 }
 
 .calendar-days div {
-    width: 37px;
-    height: 33px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,21 +269,19 @@ li>.iconfont {
     color: var(--light-text);
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 5px;
-    border-radius: 20px;
 }
 
 .month-list>div {
     display: grid;
     place-content: center;
-    margin: 5px 10px;
+    margin: 5px 3px;
     transition: all 0.2s ease-in-out;
 }
 
 .month-list>div>div {
-    border-radius: 15px;
     padding: 10px;
     cursor: pointer;
+    font-size: 12px;
 }
 
 .month-list>div>div:hover {
@@ -310,31 +309,31 @@ li>.iconfont {
 }
 
 .date-time-formate {
-    width: max-content;
-    height: max-content;
+    width: 100%;
+    height: 100%;
     font-family: Dubai Light, Century Gothic;
     position: relative;
     display: inline;
-    top: 140px;
+    top: 25px;
     justify-content: center;
 }
 
 .day-text-formate {
     font-family: Microsoft JhengHei UI;
-    font-size: 1.4rem;
-    padding-right: 5%;
+    font-size: 20px;
+    padding-right: 3%;
     border-right: 3px solid #9796f0;
     position: absolute;
-    left: -1rem;
+    left: 1rem;
 }
 
 .date-time-value {
     display: block;
-    height: max-content;
-    width: max-content;
+    height: 100%;
+    width: 100%;
     position: relative;
-    left: 40%;
-    top: -18px;
+    left: 12%;
+    top: -7px;
     text-align: center;
 }
 
