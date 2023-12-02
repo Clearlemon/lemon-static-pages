@@ -123,7 +123,7 @@ const month_names = [
     'December',
 ];
 let month_picker = document.querySelector('#month-picker');
-const dayTextFormate = document.querySelector('.day-text-formate');
+const dayTextFormate = document.querySelector('.day-text-formate ');
 const timeFormate = document.querySelector('.time-formate');
 const dateFormate = document.querySelector('.date-formate');
 
