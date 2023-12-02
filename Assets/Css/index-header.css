@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "LXGWWenKaiGBScreen";
 }
 
 li {
@@ -9,6 +10,12 @@ li {
 
 a {
     text-decoration: none
+}
+
+/*字体*/
+@font-face {
+    font-family: "LXGWWenKaiGBScreen";
+    src: url(/Assets/Font/LXGWWenKaiGBScreen.ttf);
 }
 
 .len-header-main {

@@ -324,18 +324,22 @@ li>.iconfont {
     left: 1rem;
 }
 
+.date-formate {
+    font-size: 12px;
+}
+
 .date-time-value {
     display: block;
     height: 100%;
     width: 100%;
     position: relative;
     left: 12%;
-    top: -7px;
+    top: -1px;
     text-align: center;
 }
 
 .time-formate {
-    font-size: 1.5rem;
+    font-size: 18px;
 }
 
 .time-formate.hideTime {
