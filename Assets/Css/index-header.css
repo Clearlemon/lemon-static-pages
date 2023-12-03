@@ -12,6 +12,23 @@ a {
     text-decoration: none
 }
 
+:root {
+    --len-a-link-color: black;
+
+    /* 日期全局颜色 */
+    --dark-text: #f8fbff;
+    --light-body: #f3f8fe;
+    --light-main: #fdfdfd;
+    --light-second: #c3c2c8;
+    --light-hover: #f0f0f0;
+    --light-text: #151426;
+    --light-btn: #9796f0;
+    --blue: #0000ff;
+    --white: #fff;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --font-family: consolas;
+}
+
 /*字体*/
 @font-face {
     font-family: "LXGWWenKaiGBScreen";
@@ -31,4 +48,3 @@ a {
     height: 100%;
     object-fit: cover;
 }
-

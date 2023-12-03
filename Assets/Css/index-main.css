@@ -15,6 +15,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 1350px;
+    margin-top: 20px;
 }
 
 .len-showcase-main {
@@ -110,6 +111,35 @@ li>.iconfont {
     background: white;
 }
 
+/*展示块Banner导航样式*/
+.banner-nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.banner-nav-li {
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.banner-nav-a-links {
+    color: var(--len-a-link-color);
+}
+
+.len-showcase-banner-nav-blcok {
+    padding-bottom: 10px;
+}
+
+
+
 /*幻灯片区块css*/
 .swiper {
     width: 100%;
@@ -123,20 +153,6 @@ li>.iconfont {
 }
 
 /*日期css*/
-:root {
-    --dark-text: #f8fbff;
-    --light-body: #f3f8fe;
-    --light-main: #fdfdfd;
-    --light-second: #c3c2c8;
-    --light-hover: #f0f0f0;
-    --light-text: #151426;
-    --light-btn: #9796f0;
-    --blue: #0000ff;
-    --white: #fff;
-    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    --font-family: consolas;
-}
-
 .len-calendar {
     width: 100%;
     background-color: white;
