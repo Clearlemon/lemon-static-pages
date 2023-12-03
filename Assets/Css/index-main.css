@@ -124,17 +124,17 @@ li>.iconfont {
     --font-family: consolas;
 }
 
-.calendar {
+.len-calendar {
     width: 100%;
     background-color: white;
     overflow: hidden;
 }
 
-.calendar {
+.len-calendar {
     box-shadow: var(--shadow);
 }
 
-.calendar-header {
+.len-calendar-header {
     background: #9796f0;
     display: flex;
     justify-content: space-between;
@@ -144,11 +144,11 @@ li>.iconfont {
     padding: 10px;
 }
 
-.calendar-body {
+.len-calendar-body {
     padding: 10px;
 }
 
-.calendar-week-days {
+.len-calendar-week-days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     font-weight: 600;
@@ -157,27 +157,27 @@ li>.iconfont {
     font-size: 12px;
 }
 
-.calendar-week-days div:hover {
+.len-calendar-week-days div:hover {
     color: black;
     transform: scale(1.2);
     transition: all .2s ease-in-out;
 }
 
-.calendar-week-days div {
+.len-calendar-week-days div {
     display: grid;
     place-items: center;
     color: var(--bg-second);
     height: 50px;
 }
 
-.calendar-days {
+.len-calendar-days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 2px;
     color: var(--color-txt);
 }
 
-.calendar-days div {
+.len-calendar-days div {
     width: 20px;
     height: 20px;
     font-size: 12px;
@@ -229,7 +229,7 @@ li>.iconfont {
     color: var(--bg-body);
 }
 
-.calendar-footer {
+.len-calendar-footer {
     padding: 10px;
     display: flex;
     justify-content: flex-end;
@@ -242,18 +242,18 @@ li>.iconfont {
     transition: all 0.2 ease-in-out;
 }
 
-.calendar-days div span {
+.len-calendar-days div span {
     position: absolute;
 }
 
-.calendar-days div:hover {
+.len-calendar-days div:hover {
     transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
     background-color: #fbc7d4;
     border-radius: 20%;
     color: var(--dark-text);
 }
 
-.calendar-days div.current-date {
+.len-calendar-days div.current-date {
     color: var(--dark-text);
     background-color: var(--light-btn);
     border-radius: 20%;

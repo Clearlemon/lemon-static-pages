@@ -111,7 +111,7 @@ const isLeapYear = (year) => {
 const getFebDays = (year) => {
     return isLeapYear(year) ? 29 : 28;
 };
-let calendar = document.querySelector('.calendar');
+let calendar = document.querySelector('.len-calendar');
 const month_names = [
     'January',
     'February',
@@ -144,7 +144,7 @@ month_picker.onclick = () => {
 };
 
 const generateCalendar = (month, year) => {
-    let calendar_days = document.querySelector('.calendar-days');
+    let calendar_days = document.querySelector('.len-calendar-days');
     calendar_days.innerHTML = '';
     let calendar_header_year = document.querySelector('#year');
     let days_of_month = [
