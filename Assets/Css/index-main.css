@@ -144,6 +144,7 @@ li>.iconfont {
 .swiper {
     width: 100%;
     height: 300px;
+    border-radius: 15px;
 }
 
 .len-swiper-slide-img {
@@ -157,8 +158,30 @@ li>.iconfont {
     bottom: 0;
     width: 90%;
     height: 60px;
-    padding: 3% 5% 0% 5%;
+    padding: 3% 5% 2% 5%;
     background: linear-gradient(180deg, hsl(0deg 3.64% 68.62% / 0%), hsl(0deg 0% 77.95% / 95%) 85%, #d4d4d4);
+}
+
+.len-swiper-block-min {
+    margin-bottom: 20px;
+}
+
+/*文章展示css*/
+.thumbnail-background-min {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.len-post-block {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.len-post-content-block {
+    width: 100%;
 }
 
 /*日期css*/
