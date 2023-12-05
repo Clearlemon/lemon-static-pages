@@ -216,6 +216,26 @@ li>.iconfont {
     font-size: 14px;
 }
 
+.len-like-comments-browse-avatar-name-time-block-min {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 5px;
+    background: #f2f2f2;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.len-avatar-block-min {
+    height: 100%;
+}
+
+.avatar-background-block {
+    height: 25px;
+    border-radius: 100%;
+}
+
 /*日期css*/
 .len-date-sidebar-min.contianer {
     margin-bottom: 10px;
