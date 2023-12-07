@@ -214,11 +214,12 @@ li>.iconfont {
 .len-post-part-block {
     padding: 5px 0px 0px 0px;
     font-size: 14px;
+    height: 38px;
+    overflow: hidden;
 }
 
 .len-like-comments-browse-avatar-name-time-block-min {
     display: flex;
-    align-items: flex-end;
     height: 25px;
     padding: 5px;
     background: #f2f2f2;
@@ -238,8 +239,18 @@ li>.iconfont {
 }
 
 .name-text-block {
-    font-size: 14px;
     padding: 2px 5px;
+}
+
+.len-post-statistics-block>div {
+    margin: 2px 7px;
+}
+
+.len-post-statistics-user,
+.len-post-statistics-block {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
 }
 
 /*日期css*/
