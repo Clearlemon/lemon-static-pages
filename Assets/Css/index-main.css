@@ -218,13 +218,14 @@ li>.iconfont {
 
 .len-like-comments-browse-avatar-name-time-block-min {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     height: 25px;
     padding: 5px;
     background: #f2f2f2;
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: var(--shadow);
+    justify-content: space-between;
 }
 
 .len-avatar-block-min {
@@ -234,6 +235,11 @@ li>.iconfont {
 .avatar-background-block {
     height: 25px;
     border-radius: 100%;
+}
+
+.name-text-block {
+    font-size: 14px;
+    padding: 2px 5px;
 }
 
 /*日期css*/

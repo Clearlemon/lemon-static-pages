@@ -1,48 +1,48 @@
-// //无刷新加载页面JS
-// document.addEventListener('DOMContentLoaded', function () {
-//     // 获取<a>标签
-//     var diaryLink = document.querySelector('.len-nav-link-block[href="Page/diary.html"]');
+//无刷新加载页面JS
+document.addEventListener('DOMContentLoaded', function () {
+    // 获取<a>标签
+    var diaryLink = document.querySelector('.len-nav-link-block[href="Page/diary.html"]');
 
-//     // 获取要展示内容的容器
-//     var showcaseMain = document.querySelector('.len-showcase-main');
+    // 获取要展示内容的容器
+    var showcaseMain = document.querySelector('.len-showcase-main');
 
-//     // 获取加载动画的容器
-//     var loadingSpinner = document.createElement('div');
-//     loadingSpinner.className = 'loading-spinner';
+    // 获取加载动画的容器
+    var loadingSpinner = document.createElement('div');
+    loadingSpinner.className = 'loading-spinner';
 
-//     // 保存旧内容
-//     var oldContent = '';
+    // 保存旧内容
+    var oldContent = '';
 
-//     // 给<a>标签添加点击事件
-//     diaryLink.addEventListener('click', function (event) {
-//         // 阻止默认的跳转行为
-//         event.preventDefault();
+    // 给<a>标签添加点击事件
+    diaryLink.addEventListener('click', function (event) {
+        // 阻止默认的跳转行为
+        event.preventDefault();
 
-//         // 显示加载动画
-//         showcaseMain.innerHTML = '';
-//         showcaseMain.appendChild(loadingSpinner);
+        // 显示加载动画
+        showcaseMain.innerHTML = '';
+        showcaseMain.appendChild(loadingSpinner);
 
-//         // 获取目标链接
-//         var targetUrl = diaryLink.getAttribute('href');
+        // 获取目标链接
+        var targetUrl = diaryLink.getAttribute('href');
 
-//         // 保存旧内容
-//         oldContent = showcaseMain.innerHTML;
+        // 保存旧内容
+        oldContent = showcaseMain.innerHTML;
 
-//         // 使用Fetch API加载目标链接的内容
-//         fetch(targetUrl)
-//             .then(response => response.text())
-//             .then(data => {
-//                 // 隐藏加载动画，将内容插入到展示容器中
-//                 showcaseMain.removeChild(loadingSpinner);
-//                 showcaseMain.innerHTML = data;
-//             })
-//             .catch(error => {
-//                 console.error('Error fetching content:', error);
-//                 // 如果加载出错，恢复旧内容
-//                 showcaseMain.innerHTML = oldContent;
-//             });
-//     });
-// });
+        // 使用Fetch API加载目标链接的内容
+        fetch(targetUrl)
+            .then(response => response.text())
+            .then(data => {
+                // 隐藏加载动画，将内容插入到展示容器中
+                showcaseMain.removeChild(loadingSpinner);
+                showcaseMain.innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching content:', error);
+                // 如果加载出错，恢复旧内容
+                showcaseMain.innerHTML = oldContent;
+            });
+    });
+});
 
 
 
