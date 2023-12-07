@@ -1,7 +1,7 @@
 //无刷新加载页面JS
 document.addEventListener('DOMContentLoaded', function () {
     // 获取所有的<a>标签
-    var navLinks = document.querySelectorAll('.len-nav-link-block');
+    var navLinks = document.querySelectorAll('.len-pajax-link-all-blcok');
 
     // 获取要展示内容的容器
     var showcaseMain = document.querySelector('.len-showcase-main');
