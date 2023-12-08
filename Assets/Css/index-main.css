@@ -96,7 +96,7 @@ li>.iconfont {
     padding: 5px;
 }
 
-.links-svg-cblock>.iconfont {
+.links-svg-block>.iconfont {
     font-size: 20px;
     padding: 10px;
     color: black;
@@ -119,6 +119,22 @@ li>.iconfont {
     justify-content: space-around;
     background: white;
 }
+
+.len-leaft-bottom-icon {
+    height: 20px;
+    width: 20px;
+    padding: 0px 5px;
+    vertical-align: -4px;
+}
+
+.len-leaft-nav-icon {
+    height: 15px;
+    width: 17px;
+    padding: 0px 5px;
+    vertical-align: -4px;
+}
+
+
 
 /*展示块Banner导航样式*/
 .banner-nav-ul {
@@ -176,6 +192,31 @@ li>.iconfont {
 }
 
 /*文章展示css*/
+.len-leaft-post-icon {
+    height: 18px;
+    width: 18px;
+    vertical-align: -5px;
+}
+
+.name-text-block::after {
+    content: "";
+    padding: 5px 7px;
+    position: relative;
+    right: 55px;
+    top: -3px;
+    border-bottom: 3px solid #dfdfdf;
+    transition: padding 0.3s ease, border-color 0.3s ease;
+}
+
+.name-text-block:hover::after {
+    content: "";
+    padding: 5px 25px;
+    position: relative;
+    right: 55px;
+    top: -3px;
+    border-bottom: 3px solid #8b908f99;
+}
+
 .thumbnail-background-min {
     height: 90%;
     object-fit: cover;
