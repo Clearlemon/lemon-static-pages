@@ -30,6 +30,14 @@
     width: 100%;
 }
 
+/*文章标题样式*/
+.len-article-title-block::before {
+    content: "";
+    position: relative;
+    right: 10px;
+    border-left: .25em solid #ddd;
+}
+
 /*文章and用户介绍样式*/
 .len-article-showcase-block {
     display: flex;
@@ -70,4 +78,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+/*文章内容样式*/
+.len-article-showcase-content>p {
+    margin-bottom: 5px;
 }
