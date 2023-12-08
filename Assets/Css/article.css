@@ -1,0 +1,73 @@
+.len-article-nav-block::after {
+    content: ">";
+}
+
+.len-article-showcase-main {
+    margin: 5px;
+    padding: 10px;
+}
+
+.len-article-banner-nav-blcok {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+}
+
+.len-article-nav-block {
+    margin-right: 5px;
+}
+
+.len-thumbnail-block {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.len-article-thumbnail-block-min {
+    height: 350px;
+    width: 100%;
+}
+
+/*文章and用户介绍样式*/
+.len-article-showcase-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 20px 15px;
+}
+
+.len-article-user-min {
+    display: flex;
+}
+
+.len-article-avatar-min {
+    height: 50px;
+    width: 50px;
+}
+
+.len-article-avatar-block {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.len-article-name-min {
+    margin-left: 5px;
+}
+
+.len-article-name-blcok {
+    padding-bottom: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.len-article-introduce-blcok {
+    font-size: 14px;
+}
+
+.len-article-stats-min {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
