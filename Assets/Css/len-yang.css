@@ -1,0 +1,33 @@
+/* by:yang 2023/12/11 */
+.len-classification{
+    width: 400px;
+    height: 400px;
+}
+.len-right-sidebar-02{
+    max-width: 240px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.len-classification-button{
+    width: 70px;
+    height: 25px;
+}
+/* 测试用 */
+.dmy{
+width: 100px;
+height: 100px;
+    background: #bd9191;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.dmy2{
+    width: 20px;
+    height: 20px;
+    background: #d21616;
+}
