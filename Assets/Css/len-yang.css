@@ -1,33 +1,132 @@
 /* by:yang 2023/12/11 */
-.len-classification{
+.len-classification {
     width: 400px;
     height: 400px;
 }
-.len-right-sidebar-02{
+/* 小工具 */
+.len-right-sidebar-02 {
     max-width: 240px;
     width: 250px;
     height: 250px;
     border-radius: 5px;
 }
-.len-classification-button{
+
+.len-classification-button {
     width: 70px;
     height: 25px;
 }
-/* 测试用 */
-.dmy{
-width: 100px;
-height: 100px;
-    background: #bd9191;
+
+.len-offside-button {
+
+    border-radius: 5px;
+    padding: 3px 30px;
+    font-size: .75rem !important;
 }
-.card-body {
+
+.len-offside {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -79px;
+    margin-left: 6px;
+    margin-top: 5px;
+    background: #f1f3f6;
+    margin: 7px 6px;
+}
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+.len-classify-top {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
 }
 
-.dmy2{
+.len-classif-topdiv {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -18px; */
+    /* 后期有需求可以拆分 */
+    margin: -15px;
+}
+.len-link{
+    padding: 2px;
+}
+.len-link-col{
+    position: relative;
+    /* width: 100%; */
+    left: -7px;
+    padding-right: 0px;
+    padding-left: 15px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.len-window {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgb(8 6 6 / 13%); */
+    border-radius: .25rem;
+}
+.len-window {
+    background: #fff;
+    border-width: 0;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 20px -5px rgba(158, 158, 158, .2);
+    transition: background-color .3s;
+    border: 1px solid rgb(8 6 6 / 13%);
+    margin: 0 !important;
+}
+
+.len-links-po .len-link-img {
     width: 20px;
     height: 20px;
-    background: #d21616;
+}
+.len-link-img{
+    width: 40px;
+    height: 40px;
+    flex: none;
+    background: rgba(128, 128, 128, .1);
+    overflow: hidden;
+
+        border-radius: 50% !important;
+}
+ .len-links-po .len-link-img>img {
+    vertical-align: unset;
+    width: 20px;
+}
+.len-classif-topdiv02 {
+    display: flex !important;
+    align-items: center !important;
+}
+.len-link-title{
+    flex: 1 1 auto !important;
+    padding-left: .25rem !important;
+    overflow: hidden;
+    padding-right: 5px;
+}
+/* len-link-size 之后统一使用id控制 */
+.len-link-size {
+    font-size: 14px;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
 }
