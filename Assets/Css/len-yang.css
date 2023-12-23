@@ -5,8 +5,8 @@
 }
 /* 小工具 */
 .len-right-sidebar-02 {
-    max-width: 240px;
-    width: 250px;
+    /* max-width: 240px;
+    width: 250px; */
     height: 250px;
     border-radius: 5px;
 }
