@@ -16,8 +16,15 @@ body {
 .len-body-main {
     margin-left: auto;
     margin-right: auto;
-    width: 1350px;
-    margin-top: 20px;
+    /* width: 1350px; */
+    /* margin-top: 20px; */
+}
+
+.len-body-m {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .len-showcase-main {
