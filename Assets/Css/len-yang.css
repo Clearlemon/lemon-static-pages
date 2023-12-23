@@ -3,6 +3,7 @@
     width: 400px;
     height: 400px;
 }
+
 /* 小工具 */
 .len-right-sidebar-02 {
     /* max-width: 240px;
@@ -57,10 +58,12 @@
     /* 后期有需求可以拆分 */
     margin: -15px;
 }
-.len-link{
+
+.len-link {
     padding: 2px;
 }
-.len-link-col{
+
+.len-link-col {
     position: relative;
     /* width: 100%; */
     left: -7px;
@@ -84,6 +87,7 @@
     /* border: 1px solid rgb(8 6 6 / 13%); */
     border-radius: .25rem;
 }
+
 .len-window {
     background: #fff;
     border-width: 0;
@@ -98,35 +102,46 @@
     width: 20px;
     height: 20px;
 }
-.len-link-img{
+
+.len-link-img {
     width: 40px;
     height: 40px;
     flex: none;
     background: rgba(128, 128, 128, .1);
     overflow: hidden;
 
-        border-radius: 50% !important;
+    border-radius: 50% !important;
 }
- .len-links-po .len-link-img>img {
+
+.len-links-po .len-link-img>img {
     vertical-align: unset;
     width: 20px;
 }
+
 .len-classif-topdiv02 {
     display: flex !important;
     align-items: center !important;
 }
-.len-link-title{
+
+.len-link-title {
     flex: 1 1 auto !important;
     padding-left: .25rem !important;
     overflow: hidden;
     padding-right: 5px;
 }
+
 /* len-link-size 之后统一使用id控制 */
 .len-link-size {
     font-size: 14px;
 }
+
 *,
 ::after,
 ::before {
     box-sizing: border-box;
+}
+
+.len-banner-nav:hover {
+    background: var(--light-btn);
+    border-radius:5px;
 }

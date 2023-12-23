@@ -158,8 +158,9 @@ li>.iconfont {
 .banner-nav-li {
     height: 100%;
     display: flex;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     align-items: center;
+    padding: 10px;
 }
 
 .banner-nav-a-links {
