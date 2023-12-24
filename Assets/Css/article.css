@@ -11,7 +11,10 @@
     display: flex;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #f4f4f4;
+    box-shadow: inset 0 0 2px #c5c5c5d1;
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: hsl(0deg 0% 100% / 50%) !important;
+    border-radius: 10px;
 }
 
 .len-article-nav-block {
@@ -83,4 +86,9 @@
 /*文章内容样式*/
 .len-article-showcase-content>p {
     margin-bottom: 5px;
+}
+
+.len-article-min-blcok {
+    background: white;
+    border-radius: 15px;
 }

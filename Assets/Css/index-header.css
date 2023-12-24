@@ -38,10 +38,11 @@ a {
 .len-header-main {
     display: flex;
     height: 50px;
+    margin-bottom: 5px;
 }
 
 .len-head {
-    background-color: aquamarine;
+    background: white;
 }
 
 .len-logo-fig {
