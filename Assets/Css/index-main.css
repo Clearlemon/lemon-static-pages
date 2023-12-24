@@ -608,7 +608,24 @@ li>.iconfont {
 .date-formate.showtime {
     animation: showtime 1s forwards;
 }
+.len-thirdparty {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
 
+    margin-bottom: 8px;
+    padding: 12px 16px;
+
+}
+.len-thirdparty-line {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.len-thirdparty-icon {
+    height: 20px;
+    width: 20px;
+    vertical-align: -6px;
+}
 @keyframes to-top {
     0% {
         transform: translateY(0);
