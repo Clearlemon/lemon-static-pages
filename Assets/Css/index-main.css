@@ -62,10 +62,12 @@ body {
 }
 
 .user-avatar {
-    height: 100%;
-    width: 100%;
+    height: 75px;
+    width: 75px;
     border-radius: 100%;
-    box-shadow: 2px 2px 3px #e1e1e1
+    box-shadow: 2px 2px 3px #e1e1e1;
+    position: relative;
+    top: -40px;
 }
 
 .information-avatar {
@@ -75,7 +77,7 @@ body {
 }
 
 .user-name-avatar {
-    margin: 5px 20px;
+    margin: 0px 20px;
     display: flex;
 }
 
@@ -89,9 +91,9 @@ body {
     font-size: 12px;
 }
 
-.user-biography {
+/* .user-biography {
     height: 80px;
-}
+} */
 
 /*左侧边栏导航css*/
 .len-sidebar-nav {
@@ -625,6 +627,28 @@ li>.iconfont {
     height: 20px;
     width: 20px;
     vertical-align: -6px;
+}
+.user-statistics-right {
+    /* position: relative; */
+    overflow: hidden;
+    padding: 15px 0;
+    list-style: none;
+}
+.user-statistics-article,.user-statistics-comment,.user-statistics-like{
+    border-right: 1px solid #e5e9ef;
+}
+.user-statistics-li {
+    float: left;
+    width: 32%;
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: microsoft yahei light;
+    line-height: 16px;
+}
+.user-statistics-span{
+    display: block;
 }
 @keyframes to-top {
     0% {
