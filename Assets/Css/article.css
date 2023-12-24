@@ -101,6 +101,10 @@
 }
 
 /*文章底部互动样式模块*/
+.len-article-mutual-min {
+    margin-bottom: 20px;
+}
+
 .len-post-mutual-icon {
     width: 35px;
     height: 35px;
@@ -212,6 +216,7 @@
 }
 
 /*分享框*/
+
 .len-share-open-icon {
     width: 20px;
     height: 20px;
@@ -244,4 +249,36 @@
 .len-share-icon {
     width: 50px;
     height: 50px;
+}
+
+/*上下篇文章样式*/
+.len-arrow-blcok-flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.len-arrow-above-post,
+.len-arrow-under-post {
+    width: 45%;
+
+}
+
+.under-post-background,
+.above-post-background {
+    width: 100%;
+    height: 150px;
+    filter: blur(5px)
+}
+
+.arrow-text-blcok-right {
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+
+.arrow-text-blcok-left {
+    top: 100px;
+    right: 10px;
+    position: absolute;
 }
