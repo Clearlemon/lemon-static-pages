@@ -6,7 +6,7 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    position: absolute;
+    position: fixed;
     z-index: -1;
 }
 
@@ -165,24 +165,34 @@ li>.iconfont {
 
 .banner-nav-li {
     display: flex;
-    /* margin-left: 10px; */
     align-items: center;
     padding: 10px;
+    position: relative;
 }
 
 .banner-nav-a-links {
     color: var(--len-a-link-color);
 }
 
-.banner-nav-a-links::after {
+/* 后期要用到的玩意 */
+/* .banner-nav-li::after {
     content: "";
     padding: 5px 7px;
-    position: relative;
-    right: 55px;
-    top: -3px;
-    border-bottom: 3px solid #dfdfdf;
+    position: absolute;
+    left: 15px;
+    bottom: 6px;
+    border-bottom: 3px solid #6fa97e;
     transition: padding 0.3s ease, border-color 0.3s ease;
 }
+
+.banner-nav-li:hover::after {
+    content: "";
+    padding: 5px 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 6px;
+    border-bottom: 3px solid #8b908f99;
+} */
 
 .len-banner-nav-icon {
     height: 15px;

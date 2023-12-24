@@ -1,68 +1,68 @@
-//无刷新加载页面JS
-document.addEventListener('DOMContentLoaded', function () {
-    // 获取所有的<a>标签
-    var navLinks = document.querySelectorAll('.len-pjax-link-all-blcok');
+// //无刷新加载页面JS
+// document.addEventListener('DOMContentLoaded', function () {
+//     // 获取所有的<a>标签
+//     var navLinks = document.querySelectorAll('.len-pjax-link-all-blcok');
 
-    // 获取要展示内容的容器
-    var showcaseMain = document.querySelector('.len-showcase-main');
+//     // 获取要展示内容的容器
+//     var showcaseMain = document.querySelector('.len-showcase-main');
 
-    // 获取加载动画的容器
-    var loadingSpinner = document.createElement('div');
-    loadingSpinner.className = 'loading-spinner';
+//     // 获取加载动画的容器
+//     var loadingSpinner = document.createElement('div');
+//     loadingSpinner.className = 'loading-spinner';
 
-    // 保存旧内容
-    var oldContent = '';
+//     // 保存旧内容
+//     var oldContent = '';
 
-    // 给所有的<a>标签添加点击事件
-    navLinks.forEach(function (link) {
-        link.addEventListener('click', function (event) {
-            // 阻止默认的跳转行为
-            event.preventDefault();
+//     // 给所有的<a>标签添加点击事件
+//     navLinks.forEach(function (link) {
+//         link.addEventListener('click', function (event) {
+//             // 阻止默认的跳转行为
+//             event.preventDefault();
 
-            // 检查是否点击的是当前已经显示的页面
-            if (link.classList.contains('active')) {
-                return;
-            }
+//             // 检查是否点击的是当前已经显示的页面
+//             if (link.classList.contains('active')) {
+//                 return;
+//             }
 
-            // 获取目标链接
-            var targetUrl = link.getAttribute('href');
+//             // 获取目标链接
+//             var targetUrl = link.getAttribute('href');
 
-            // 检查链接是否为 # 或为空
-            if (targetUrl === '#' || targetUrl.trim() === '') {
-                // 刷新当前页面
-                location.reload();
-                return;
-            }
+//             // 检查链接是否为 # 或为空
+//             if (targetUrl === '#' || targetUrl.trim() === '') {
+//                 // 刷新当前页面
+//                 location.reload();
+//                 return;
+//             }
 
-            // 显示加载动画
-            showcaseMain.innerHTML = '';
-            showcaseMain.appendChild(loadingSpinner);
+//             // 显示加载动画
+//             showcaseMain.innerHTML = '';
+//             showcaseMain.appendChild(loadingSpinner);
 
-            // 保存旧内容
-            oldContent = showcaseMain.innerHTML;
+//             // 保存旧内容
+//             oldContent = showcaseMain.innerHTML;
 
-            // 使用 Fetch API 加载目标链接的内容
-            fetch(targetUrl)
-                .then(response => response.text())
-                .then(data => {
-                    // 隐藏加载动画，将内容插入到展示容器中
-                    showcaseMain.removeChild(loadingSpinner);
-                    showcaseMain.innerHTML = data;
+//             // 使用 Fetch API 加载目标链接的内容
+//             fetch(targetUrl)
+//                 .then(response => response.text())
+//                 .then(data => {
+//                     // 隐藏加载动画，将内容插入到展示容器中
+//                     showcaseMain.removeChild(loadingSpinner);
+//                     showcaseMain.innerHTML = data;
 
-                    // 标记当前链接为活动状态
-                    navLinks.forEach(function (navLink) {
-                        navLink.classList.remove('active');
-                    });
-                    link.classList.add('active');
-                })
-                .catch(error => {
-                    console.error('Error fetching content:', error);
-                    // 如果加载出错，恢复旧内容
-                    showcaseMain.innerHTML = oldContent;
-                });
-        });
-    });
-});
+//                     // 标记当前链接为活动状态
+//                     navLinks.forEach(function (navLink) {
+//                         navLink.classList.remove('active');
+//                     });
+//                     link.classList.add('active');
+//                 })
+//                 .catch(error => {
+//                     console.error('Error fetching content:', error);
+//                     // 如果加载出错，恢复旧内容
+//                     showcaseMain.innerHTML = oldContent;
+//                 });
+//         });
+//     });
+// });
 
 
 

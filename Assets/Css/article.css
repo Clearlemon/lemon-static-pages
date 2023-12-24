@@ -91,4 +91,157 @@
 .len-article-min-blcok {
     background: white;
     border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.len-stats-post-icon {
+    height: 20px;
+    width: 20px;
+    vertical-align: -4px;
+}
+
+/*文章底部互动样式模块*/
+.len-post-mutual-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.len-article-mutual-blcok {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+}
+
+.len-mutaual-block {
+    padding: 10px;
+}
+
+.len-mutaual-block>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #e5e9ef;
+    width: 260px;
+    justify-content: center;
+}
+
+.len-article-share:last-of-type {
+    border-right: none;
+}
+
+/*打赏框样式*/
+.len-al-wx-pay {
+    position: fixed;
+    width: 300px;
+    height: 340px;
+    left: 43%;
+    top: 35%;
+    background: white;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.len-pay-open-icon {
+    width: 20px;
+    height: 20px;
+    padding: 3px 5px;
+    position: relative;
+    top: -12px;
+    right: -40px;
+}
+
+.len-post-pay-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.len-pop-ups {
+    background: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+}
+
+.pay-qr-img {
+    width: 200px;
+}
+
+.wx-alpay-qr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.pay-choose-img {
+    width: 75px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.pay-choose {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pay-choose-link {
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e6e6e6;
+}
+
+.pay-title {
+    display: flex;
+    align-items: center;
+}
+
+.pay-title-text {
+    font-size: 16px;
+}
+
+/*分享框*/
+.len-share-open-icon {
+    width: 20px;
+    height: 20px;
+    padding: 3px 5px;
+    position: relative;
+    top: -10px;
+    left: 480px;
+    z-index: 2;
+}
+
+.share-blcok-min {
+    position: fixed;
+    width: 500px;
+    height: 80px;
+    left: 37%;
+    top: 35%;
+    background: white;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+.share-block-all-svg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -15px;
+}
+
+.len-share-icon {
+    width: 50px;
+    height: 50px;
 }
