@@ -16,8 +16,15 @@ body {
 .len-body-main {
     margin-left: auto;
     margin-right: auto;
-    width: 1350px;
-    margin-top: 20px;
+    /* width: 1350px; */
+    /* margin-top: 20px; */
+}
+
+.len-body-m {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .len-showcase-main {
@@ -107,9 +114,9 @@ li>.iconfont {
 }
 
 .len-sidebar-links {
-    height: 30px;
+    height: 60px;
     position: absolute;
-    width: 200px;
+    width: 215px;
     bottom: 15px;
     border-radius: 10px;
     right: 20px;
@@ -121,15 +128,15 @@ li>.iconfont {
 }
 
 .len-leaft-bottom-icon {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 40px;
     padding: 0px 5px;
     vertical-align: -4px;
 }
 
 .len-leaft-nav-icon {
-    height: 15px;
-    width: 17px;
+    height: 20px;
+    width: 30px;
     padding: 0px 5px;
     vertical-align: -4px;
 }
@@ -151,8 +158,9 @@ li>.iconfont {
 .banner-nav-li {
     height: 100%;
     display: flex;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     align-items: center;
+    padding: 10px;
 }
 
 .banner-nav-a-links {
