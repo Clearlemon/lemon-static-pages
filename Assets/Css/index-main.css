@@ -21,7 +21,7 @@ body {
 .len-leaft-sidebar {
     max-width: 250px;
     width: 250px;
-    height: 1000px;
+
     position: relative;
 }
 
@@ -42,7 +42,6 @@ body {
 .len-right-sidebar {
     max-width: 250px;
     width: 250px;
-    height: 1000px;
 }
 
 .information-background {

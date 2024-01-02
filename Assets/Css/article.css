@@ -282,3 +282,90 @@
     right: 10px;
     position: absolute;
 }
+
+.len-arrow-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: -4px;
+}
+
+.len-arrow-post-block-min {
+    margin-bottom: 20px;
+}
+
+/*评论区样式*/
+.len-comments-main {
+    display: flex;
+}
+
+.user-comments-avatar {
+    width: 80px;
+    height: 80px;
+}
+
+.len-user-comments-avatar-blcok {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.len-user-comments-content {
+    width: 80%;
+}
+
+.len-comments-textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.len-comments-input-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.len-comments-textarea-block {
+    width: 80%;
+    height: 70px;
+    margin-right: 25px;
+    border-radius: 5px;
+    border: 1px solid #e1e8ed;
+    background: #f4f5f7;
+}
+
+.len-comments-input {
+    width: 45%;
+    padding: 5px;
+    margin: 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #e1e8ed;
+    background: #f4f5f7;
+}
+
+.comments-submit-button {
+    width: 70px;
+    height: 70px;
+    border: none;
+    background: aliceblue;
+    border-radius: 5px;
+}
+
+.len-comments-blcok {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.len-comments {
+    padding: 05px 15px;
+}
+
+.user-comments-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
