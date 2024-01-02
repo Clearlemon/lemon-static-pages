@@ -393,6 +393,7 @@ li>.iconfont {
     font-weight: 700;
     color: var(--white);
     padding: 10px;
+    border-radius: 4px 4px 0 0;
 }
 
 .len-calendar-body {
@@ -625,7 +626,7 @@ li>.iconfont {
     border-radius: 4px;
 
     margin-bottom: 8px;
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
 
 }
 .len-thirdparty-line {
@@ -637,6 +638,9 @@ li>.iconfont {
     height: 20px;
     width: 20px;
     vertical-align: -6px;
+}
+.len-thirdparty-topdiv{
+    padding: 12px 16px; 
 }
 .user-statistics-right {
     /* position: relative; */
